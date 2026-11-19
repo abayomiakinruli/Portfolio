@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abayomi Akinruli | Web Development, E-commerce &amp; Telegram Bots</title>
+  <meta name="description" content="Abayomi Akinruli builds responsive business websites, e-commerce experiences, Telegram bots, automation workflows, and digital designs. Get in touch to discuss your next project." />
+  <meta name="author" content="Abayomi Akinruli" />
+  <meta name="theme-color" content="#16162b" />
+
+  <!-- SITE URL: these absolute URLs assume GitHub Pages at https://abayomiakinruli.github.io/
+       If you deploy somewhere else, search-and-replace that address here, in robots.txt and in sitemap.xml. -->
+  <link rel="canonical" href="https://abayomiakinruli.github.io/" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Abayomi Akinruli" />
+  <meta property="og:title" content="Abayomi Akinruli | Web Development, E-commerce &amp; Telegram Bots" />
+  <meta property="og:description" content="Responsive websites, online stores, Telegram bots, automation and digital design by Abayomi Akinruli." />
+  <meta property="og:url" content="https://abayomiakinruli.github.io/" />
+  <meta property="og:image" content="https://abayomiakinruli.github.io/Assets/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Abayomi Akinruli — Your Ideas. Engineered Into Digital Solutions." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="Assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,700;6..12,800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Mark JS as available and apply the saved theme before first paint -->
+  <script>
+    document.documentElement.classList.add("js");
+    try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.dataset.theme = t; } catch (e) {}
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Abayomi Akinruli",
+    "jobTitle": "Software Developer",
+    "image": "https://abayomiakinruli.github.io/Assets/abayomi.jpg",
+    "email": "mailto:abayomiakinruli@gmail.com",
+    "telephone": "+2348153978826",
+    "url": "https://abayomiakinruli.github.io/",
+    "address": { "@type": "PostalAddress", "addressLocality": "Lagos", "addressCountry": "NG" },
+    "sameAs": ["https://github.com/abayomiakinruli", "https://www.linkedin.com/in/abayomi-akinruli-98a190213"]
+  }
+  </script>
+</head>
+<body>
+  <!-- Icon sprite (24×24, stroke) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+      <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 15a4 4 0 0 1-4 4H8l-5 3V7a4 4 0 0 1 4-4h10a4 4 0 0 1 4 4z"/><path d="M8 9h8M8 13h5"/></symbol>
+      <symbol id="i-pause" viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1"/><rect x="14" y="5" width="4" height="14" rx="1"/></symbol>
+      <symbol id="i-play" viewBox="0 0 24 24"><path d="M7 4.5v15l12-7.5z"/></symbol>
+      <symbol id="i-out" viewBox="0 0 24 24"><path d="M7 7h10v10"/><path d="M7 17 17 7"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="M12 5v14"/></symbol>
+      <symbol id="i-mail" viewBox="0 0 24 24"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></symbol>
+      <symbol id="i-phone" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></symbol>
+      <symbol id="i-github" viewBox="0 0 24 24"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.4 5.4 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></symbol>
+      <symbol id="i-linkedin" viewBox="0 0 24 24"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></symbol>
+      <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></symbol>
+      <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></symbol>
+      <symbol id="i-moon" viewBox="0 0 24 24"><path d="M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z"/></symbol>
+    </defs>
+  </svg>
+
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="logo" aria-label="Abayomi Akinruli, back to top">
+        <span class="logo__mark" aria-hidden="true">AA</span>
+        <span class="logo__text">Abayomi Akinruli</span>
+      </a>
+
+      <nav class="nav__links" id="navLinks" aria-label="Main">
+        <a href="projects.html">Projects</a>
+        <a href="pricing.html">Pricing</a>
+        <a href="about.html">About</a>
+        <a href="pricing.html#contact">Contact</a>
+        <a href="pricing.html#contact" class="btn btn--primary nav__mobile-cta">Start a project</a>
+      </nav>
+
+      <div class="nav__actions">
+        <button class="icon-btn theme-toggle" type="button" aria-label="Switch to dark theme">
+          <svg class="icon icon--sun"><use href="#i-sun"/></svg>
+          <svg class="icon icon--moon"><use href="#i-moon"/></svg>
+        </button>
+        <a href="pricing.html#contact" class="btn btn--primary btn--sm nav__cta">Start a project</a>
+        <button class="nav__toggle" id="navToggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="top">
+      <!-- World map background. script.js shifts it so Lagos sits under the pin next to "Lagos, Nigeria" -->
+      <div class="hero__map" aria-hidden="true">
+        <img class="hero__map-img" src="Assets/world-map-fine.svg" alt="" />
+      </div>
+      <div class="container">
+        <div class="hero__main">
+          <h1 class="reveal">Digital solutions <span class="hero__hl">built around your vision.</span></h1>
+          <p class="lead reveal">I&#39;m Abayomi Akinruli, a software developer and digital solutions builder. I create responsive websites, online stores, Telegram bots, and digital experiences that help businesses turn ideas into practical products.</p>
+          <div class="hero__ctas reveal">
+            <a href="pricing.html#contact" class="btn btn--primary btn--lg">Start a project</a>
+            <a href="projects.html" class="link-arrow">Explore my projects</a>
+          </div>
+          <div class="hero__foot">
+            <!-- Location -->
+            <aside class="hero__strip" aria-label="At a glance">
+              <div class="strip-block">
+                <p class="strip-block__place">Lagos, Nigeria <span class="hero__pin" aria-hidden="true"></span></p>
+                <p class="strip-block__meta">Available for remote projects worldwide</p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES ============ -->
+    <section class="section section--white" id="services">
+      <div class="container split">
+        <div class="split__head reveal">
+          <span class="eyebrow">What I build</span>
+          <h2>From the website to the system behind it<span class="accent">.</span></h2>
+          <p>Websites, online stores, bots and automations from one developer, with no handoffs between suppliers.</p>
+          <a href="pricing.html#contact" class="link-arrow">Discuss your project</a>
+        </div>
+
+        <!-- Floating tabs: one service group at a time -->
+        <div class="ftabs reveal" data-tabs>
+          <div class="ftabs__list" role="tablist" aria-label="Service groups">
+            <button class="ftabs__tab" role="tab" id="tab-build" aria-controls="panel-build" aria-selected="true">Build</button>
+            <button class="ftabs__tab" role="tab" id="tab-automate" aria-controls="panel-automate" aria-selected="false" tabindex="-1">Automate</button>
+            <button class="ftabs__tab" role="tab" id="tab-design" aria-controls="panel-design" aria-selected="false" tabindex="-1">Design &amp; Support</button>
+          </div>
+
+          <div class="ftabs__panel" role="tabpanel" id="panel-build" aria-labelledby="tab-build">
+            <p class="ftabs__lead">Websites, online stores and app interfaces built around how your business actually works.</p>
+            <div class="svc-list">
+              <details class="svc">
+                <summary>Business Website Development<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>Professional websites for businesses, startups, personal brands and organisations.</p>
+                <ul class="dash"><li>Responsive layouts &amp; clear navigation</li><li>Contact forms</li><li>Search-engine-friendly structure</li></ul>
+              </details>
+              <details class="svc">
+                <summary>E-commerce &amp; Online Stores<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>Product catalogues, product pages, shopping carts, checkout interfaces and order workflows.</p>
+                <ul class="dash"><li>Responsive, customer-friendly storefronts</li><li>Payment gateway integration where supported and configured</li></ul>
+                <p class="note">Every quote states whether you're getting a front-end prototype or a fully operational store.</p>
+              </details>
+              <details class="svc">
+                <summary>Front-End Development<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>React, Next.js, TypeScript, JavaScript, HTML, CSS and Tailwind CSS.</p>
+                <ul class="dash"><li>Reusable components &amp; responsive interfaces</li><li>API integration</li><li>Debugging &amp; performance improvements</li></ul>
+              </details>
+              <details class="svc">
+                <summary>Mobile App Interfaces<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>React Native and Expo interfaces, mobile-friendly product experiences and API-connected app features.</p>
+              </details>
+            </div>
+          </div>
+
+          <div class="ftabs__panel" role="tabpanel" id="panel-automate" aria-labelledby="tab-automate" hidden>
+            <p class="ftabs__lead">Bots and integrations that take repetitive work off your plate and keep customers informed.</p>
+            <div class="svc-list">
+              <details class="svc">
+                <summary>Telegram Bot Development<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>Custom Telegram bots for businesses and communities.</p>
+                <ul class="dash"><li>Menus &amp; customer support flows</li><li>Automated messages &amp; notifications</li><li>Custom user workflows</li></ul>
+              </details>
+              <details class="svc">
+                <summary>Crypto Trading Bot Development<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>Bots and interfaces that support crypto trading businesses.</p>
+                <ul class="dash"><li>Buy/sell workflows, rate displays &amp; transaction references</li><li>Customer onboarding &amp; trading notifications</li><li>Rate-posting bots &amp; scheduled crypto news</li><li>Exchange API integration where permitted</li></ul>
+                <p class="note">Credentials and transaction data are handled securely. No bot is sold as profitable or guaranteed to trade.</p>
+              </details>
+              <details class="svc">
+                <summary>API Integration &amp; Automation<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>Connecting front-end apps to APIs and automating repetitive workflows, data exchange, notifications and supported integrations.</p>
+              </details>
+            </div>
+          </div>
+
+          <div class="ftabs__panel" role="tabpanel" id="panel-design" aria-labelledby="tab-design" hidden>
+            <p class="ftabs__lead">Branded visuals for your marketing and ongoing care for what's already live.</p>
+            <div class="svc-list">
+              <details class="svc">
+                <summary>Canva &amp; Digital Design<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>Social media graphics, promotional materials, branded layouts, presentations and marketing assets.</p>
+              </details>
+              <details class="svc">
+                <summary>Maintenance &amp; Improvements<svg class="icon"><use href="#i-plus"/></svg></summary>
+                <p>Debugging, responsive fixes, component updates, metadata, technical improvements and ongoing development support.</p>
+              </details>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY ============ -->
+    <section class="section section--white">
+      <div class="container split">
+        <div class="split__head reveal">
+          <span class="eyebrow">Why work with me</span>
+          <h2>One developer. The whole build<span class="accent">.</span></h2>
+          <p>Scope, deliverables and timelines are agreed in writing before work starts, so you know exactly what you're getting.</p>
+        </div>
+        <div class="grid2">
+          <div class="point reveal"><span class="num">01</span><h3>Direct communication.</h3><p>You speak with the developer writing your code, not a middleman.</p></div>
+          <div class="point reveal"><span class="num">02</span><h3>Tailored to you.</h3><p>Solutions built around your requirements, audience and budget.</p></div>
+          <div class="point reveal"><span class="num">03</span><h3>Responsive, user-focused design.</h3><p>Interfaces that work well on phones, tablets and desktops.</p></div>
+          <div class="point reveal"><span class="num">04</span><h3>Maintainable code, carefully tested.</h3><p>Structured Git workflows, reusable components and attention to detail when debugging.</p></div>
+          <div class="point reveal"><span class="num">05</span><h3>Transparent scope.</h3><p>Clear deliverables, agreed up front, with no surprises.</p></div>
+          <div class="point reveal"><span class="num">06</span><h3>Practical focus.</h3><p>Every decision is aimed at what your business actually needs.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS (dark) ============ -->
+    <section class="section section--navy process-section" id="process">
+      <div class="container">
+        <div class="split split--top">
+          <div class="split__head reveal">
+            <span class="eyebrow eyebrow--light">How a project starts</span>
+            <h2>Start from where you are<span class="accent">.</span></h2>
+          </div>
+          <div class="cols3">
+            <div class="col reveal">
+              <span class="num">01</span>
+              <h3>A new website or store</h3>
+              <p class="col__desc">You know what the business needs. The site or product still has to be designed, built and launched.</p>
+              <a href="#services" class="link-arrow link-arrow--light">Explore build services</a>
+            </div>
+            <div class="col reveal">
+              <span class="num">02</span>
+              <h3>Repetitive work to automate</h3>
+              <p class="col__desc">Customer messages, rates or orders are handled by hand and it's slowing you down.</p>
+              <a href="pricing.html#contact" class="link-arrow link-arrow--light">Discuss automation</a>
+            </div>
+            <div class="col reveal">
+              <span class="num">03</span>
+              <h3>Something already live</h3>
+              <p class="col__desc">Your site works but needs fixes, updates, better metadata or a refresh.</p>
+              <a href="pricing.html#contact" class="link-arrow link-arrow--light">Ask about support</a>
+            </div>
+          </div>
+        </div>
+
+        <ol class="steps">
+          <li class="reveal"><span class="num">01</span><h3>Discover</h3><p>Understand your goals, requirements and audience.</p></li>
+          <li class="reveal"><span class="num">02</span><h3>Plan &amp; Design</h3><p>Define the solution, structure and user experience.</p></li>
+          <li class="reveal"><span class="num">03</span><h3>Build &amp; Test</h3><p>Develop the product, integrate the services it needs and test that it works.</p></li>
+          <li class="reveal"><span class="num">04</span><h3>Launch &amp; Improve</h3><p>Deploy, document, and provide agreed maintenance or improvements.</p></li>
+        </ol>
+      </div>
+    </section>
+
+  
+    <!-- ============ ABOUT ============ -->
+
+    <!-- ============ PRICING ============ -->
+
+</main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#top" class="logo logo--light"><span class="logo__mark" aria-hidden="true">AA</span><span class="logo__text">Abayomi Akinruli</span></a>
+        <a href="pricing.html#contact" class="btn btn--pill">Start a project</a>
+      </div>
+      <nav aria-label="Footer">
+        <h2 class="footer__title">Navigate</h2>
+        <ul><li><a href="#services">Services</a></li><li><a href="projects.html">Projects</a></li><li><a href="#process">Process</a></li><li><a href="pricing.html">Pricing</a></li><li><a href="about.html">About</a></li><li><a href="pricing.html#contact">Contact</a></li></ul>
+      </nav>
+      <div>
+        <h2 class="footer__title">Contact</h2>
+        <ul class="footer__contact">
+          <li><svg class="icon"><use href="#i-mail"/></svg><a href="mailto:abayomiakinruli@gmail.com">abayomiakinruli@gmail.com</a></li>
+          <li><svg class="icon"><use href="#i-phone"/></svg><a href="tel:+2348153978826">+234 815 397 8826</a></li>
+          <li><svg class="icon"><use href="#i-github"/></svg><a href="https://github.com/abayomiakinruli" target="_blank" rel="noopener">GitHub</a></li>
+          <li><svg class="icon"><use href="#i-linkedin"/></svg><a href="https://www.linkedin.com/in/abayomi-akinruli-98a190213" target="_blank" rel="noopener">LinkedIn</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container footer__legal">
+      <p>© <span id="year">2026</span> Abayomi Akinruli</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
