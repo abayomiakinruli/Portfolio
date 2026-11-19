@@ -373,6 +373,35 @@ form.addEventListener("submit", (e) => {
 }
 
 // ---------------------------------------------------------
+// Phone-only sticky "Start a project" button.
+// Appears after the first screen; hides near the contact form and footer.
+// ---------------------------------------------------------
+{
+  const onPricing = !!document.getElementById("contact");
+  const mcta = document.createElement("a");
+  mcta.className = "mcta";
+  mcta.href = onPricing ? "#contact" : "pricing.html#contact";
+  mcta.innerHTML = `<span>Start a project</span><svg class="icon" aria-hidden="true"><use href="#i-arrow"/></svg>`;
+  document.body.appendChild(mcta);
+
+  const blockers = new Set();
+  const update = () => {
+    const show = window.scrollY > window.innerHeight * 0.6 && blockers.size === 0;
+    mcta.classList.toggle("is-shown", show);
+    mcta.tabIndex = show ? 0 : -1;
+  };
+  if ("IntersectionObserver" in window) {
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach((e) => (e.isIntersecting ? blockers.add(e.target) : blockers.delete(e.target)));
+      update();
+    });
+    document.querySelectorAll("#contact, .footer").forEach((el) => io.observe(el));
+  }
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+}
+
+// ---------------------------------------------------------
 // Footer year
 // ---------------------------------------------------------
 document.getElementById("year").textContent = new Date().getFullYear();
